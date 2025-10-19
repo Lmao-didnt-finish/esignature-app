@@ -17,3 +17,17 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+
+Simple Streamlit app to watermark images with an e-signature.
+
+Run:
+
+```bash
+$ cd /workspaces/esignature-app
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+$ streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501 --server.enableCORS false
+```
+
+Open on the host: "$BROWSER" http://localhost:8501
